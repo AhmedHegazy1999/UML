@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Stack-master">
+  <ClassDiagramComponents>
+    <Class name="StackProject" package="stackproject" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="stack" package="stackproject" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="max" type="int" visibility="package" isStatic="true" isFinal="true"/>
+        <Field name="top" type="int" visibility="package"/>
+        <Field name="a" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="isEmpty" returnType="boolean" visibility="package"/>
+        <Method name="push" returnType="boolean" visibility="package">
+          <Argument type="int" name="x"/>
+        </Method>
+        <Method name="pop" returnType="int" visibility="package"/>
+        <Method name="getsize" returnType="int" visibility="package"/>
+        <Method name="peek" returnType="int" visibility="package"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
